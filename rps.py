@@ -26,3 +26,17 @@ elif first == "Nůžky" and second == "Nůžky":
 #3-PAPIR
 elif first == "Papír" and second == "Papír":
     print("Remíza.")
+
+#VYHRY
+if first == "Kámen" and second == "Nůžky":
+    print("Výhra, kámen drtí nůžky.")
+elif first == "Kámen" and second == "Papír":
+    print("Prohra, kámen je zabalen papírem.")
+elif first == "Nůžky" and second == "Kámen":
+    print("Prohra, nůžky jsou rozdrceny kamenem.")
+elif first == "Nůžky" and second == "Papír":
+    print("Výhra, nůžky stříhají papír.")
+elif first == "Papír" and second == "Kámen":
+    print("Výhra, papír balí kámen.")
+elif first == "Papír" and second == "Nůžky":
+    print("Prohra, papír je rozstřižen nůžkami.")
