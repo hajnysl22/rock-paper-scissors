@@ -11,3 +11,7 @@ elif second == 2:
     second = "Nůžky"
 elif second == 3:
     second = "Papír"
+
+#UKAŽVSTUPY
+print("Zahrál jste:", first)
+print("Soupeř zahrál:", second)
