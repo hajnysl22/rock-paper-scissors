@@ -15,3 +15,14 @@ elif second == 3:
 #UKAŽVSTUPY
 print("Zahrál jste:", first)
 print("Soupeř zahrál:", second)
+
+#REMIZA
+#1-KAMEN
+if first == "Kámen" and second == "Kámen":
+    print("Remíza.")
+#2-NUZKY
+elif first == "Nůžky" and second == "Nůžky":
+    print("Remíza.")
+#3-PAPIR
+elif first == "Papír" and second == "Papír":
+    print("Remíza.")
